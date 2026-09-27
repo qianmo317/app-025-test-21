@@ -16,7 +16,7 @@ npm run dev          # 开发服务器 http://localhost:5173（LAN 可访问）
 npm run build        # 类型检查(tsc -b) + 生产构建 → dist/
 npm run preview      # 预览构建产物 http://localhost:4173
 
-npm test             # 单元 + 组件测试（Vitest，139 用例）
+npm test             # 单元 + 组件测试（Vitest，158 用例）
 npm run test:watch   # 监听模式
 npm run e2e          # E2E（自动起 vite preview）
 npm run e2e:headed   # 有头模式（观察浏览器操作）
@@ -86,7 +86,7 @@ npm run e2e:headed   # 有头模式（观察浏览器操作）
 
 ```bash
 npx tsc -b        # ① 类型零错误
-npm test          # ② 139 用例全绿
+npm test          # ② 158 用例全绿
 npm run build     # ③ 构建通过
 npm run e2e       # ④ E2E 通过（改动画布/交互/路由时必跑）
 ```

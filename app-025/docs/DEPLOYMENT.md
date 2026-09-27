@@ -70,7 +70,7 @@ COPY --from=build /app/dist /usr/share/nginx/html
 # ① 构建与类型
 npm run build
 
-# ② 全量测试（139 用例 + E2E）
+# ② 全量测试（158 用例 + E2E）
 npm test
 E2E_BASE_URL=http://localhost:8105 E2E_NO_SERVER=1 npm run e2e   # 容器起来后
 
